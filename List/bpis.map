@@ -1,0 +1,24 @@
+RAM Allocation [bytes]
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+tuner_start_vol                                                   R4           1
+tuner_end_vol                                                     R5           1
+adc_vol_1800ma                                                    R6           1
+i                                                                 R7           1
+key1_pressed_counter                                              R8,R9        2
+key2_pressed_counter                                              R10,R11      2
+Iout                                                              R12          1
+
+FLASH Allocation [words]
+Function                                                          Address   Size
+--------------------------------------------------------------------------------
+blink_led                                                         0x00060      6
+main                                                              0x000CA    141
